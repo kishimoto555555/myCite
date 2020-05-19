@@ -1,16 +1,17 @@
 body{
     margin: 0;
-    width: 100vw;
+    width:100%;
     font-family:Georgia, '游明朝', YuMincho, 'Hiragino Mincho ProN', Meiryo, serif;
 }
 
 header{
     height: 50px;
-    width: 100vw;
+    width: 100%;
     background-color:white;
     position: fixed;
     top:0px; left;0px;
     z-index: 10;
+    box-shadow: 0 0 10px 0 gray;
 }
 .pageTitle{
     display:inline-block;
@@ -48,7 +49,7 @@ display: inline-block;
 }
 
 .profile{
-    height: 300px;
+    width: 100%;
     padding:50px 0px 50px 300px;
 }
 .profileContentsImage{
@@ -71,7 +72,6 @@ display: inline-block;
 }
 
 .career{
-    height: 400px;
     padding:50px 0px 50px 300px;
     background-color:black;
     color: white;
@@ -89,11 +89,13 @@ display: inline-block;
     height:250px;
 }
 .vision{
-    height: 350px;
     padding:50px 300px 50px 300px;
     font-weight: bold;
     color: white;
     background-color:#8c7620;
+}
+.visionContentsTitle{
+  font-size: 1.2em;
 }
 
 .hobby{
@@ -122,13 +124,12 @@ height: 150px;
 }
 
 .hobbySingers{
-    padding: 30px ;
+    padding: : 30px ;
 }
 .hobbySinger{
     display: inline-block;
-    width: 20%;
-    padding-right: 35px;
-    
+    width: 24%;
+
 }
 .hobbySingerImage{
     width: 150px;
