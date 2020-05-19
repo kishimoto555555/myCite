@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+
+
+@media(max-width:1300px){
+  .body{
+      font-size: 0.7em;
+  }
+.pageTitle{
+  padding:0 100px 0 10px ;
+}
+
+.topWrapper{
+  height: 300px;
+  padding: 40px 100px 0 5px;
+}
+.profileContentsImage{
+  padding-right: 50px;
+}
+
+.vision, .career,.profile,.contact,footer,.hobby{
+  padding: 0 50px;
+}
+
+.visionContents, .hobbyContents,.profileContents,.careerContents ul{
+padding: 20px 5px;
+margin:0;
+}
+.profileContents,.hobbySingers{
+text-align: center;
+}
+.profileTtile h1, .careerTitle h1,.visionTitle h1,.hobbyTitle h1 {
+  text-align: center;
+  margin:0;
+  padding-top: 20px;
+}
+.careerImage{
+  height:180px;
+  padding:0 0 50px 50px;
+
+}
+.hobbyContentsArticle{
+padding:0;
+width:100%;
+}
+.hobbyContents{
+border: none;
+border-bottom: 2px solid gray;
+}
+.hobbyContentsImage,.hobbyContentsTitle{
+
+}
+.hobbyContentsImage{
+display: flex;
+}
+.trip,.pasta{
+margin: 0 auto;
+}
+.hobbyContentsArticle p{
+  text-align: center;
+}
+.hobbyContentsTitle{
+text-align: center;
+padding-top: 20px;
+}
+.hobbySinger{
+width: 24%;
+margin: 0;
+}
+.contact{
+text-align: center;
+margin: 0 50px;
+}
+}
+
+
+@media(max-width:670px){
+    .body{
+        font-size: 0.7em;
+    }
+.pageTitle{
+    padding:0 10px ;
+}
+.header-containt a{
+    font-size: 0.5em;
+    padding: 0 3px 0 0;
+}
+
+.topWrapper{
+    height: 300px;
+    padding: 40px 100px 0 5px;
+}
+
+.vision, .career, .hobby,.profile,.contact,footer{
+    padding: 0;
+}
+.profileContentsSentence p{
+    font-size: 16px;
+    padding:0;
+}
+.profileContentsImage{
+    padding: 0;
+}
+
+.visionContents, .hobbyContents,.profileContents,.careerContents ul{
+  padding: 20px 5px;
+  margin:0;
+}
+.profileContents,.hobbySingers{
+  text-align: center;
+}
+.profileTtile h1, .careerTitle h1,.visionTitle h1,.hobbyTitle h1 {
+    text-align: center;
+    margin:0;
+    padding-top: 20px;
+}
+
+.careerImage{
+  display:none;
+}
+.hobbyContentsArticle{
+  padding:0;
+  width:100%;
+}
+.hobbyContents{
+  border: none;
+  border-bottom: 2px solid gray;
+}
+.hobbyContentsImage,.hobbyContentsTitle{
+
+}
+.hobbyContentsImage{
+  display: flex;
+}
+.trip,.pasta{
+  margin: 0 auto;
+}
+.hobbyContentsTitle{
+  text-align: center;
+  padding-top: 20px;
+}
+.hobbySinger{
+  width: 49%;
+  margin: 0;
+}
+.contact{
+  text-align: center;
+  margin: 0 20px;
+}
+}
