@@ -153,4 +153,14 @@ margin: 0 50px;
   text-align: center;
   margin: 0 20px;
 }
+.fa-arrow-circle-right {
+  right: 7%;
+}
+
+.fa-arrow-circle-left {
+  left: 7%;
+  display: none;
+};
+}
+
 }
