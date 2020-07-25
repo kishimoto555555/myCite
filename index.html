@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="myCite.css">
     <link rel="stylesheet" href="responsive.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
 
 <body>
@@ -23,6 +24,21 @@
     <a href="#Contact">Contact</a>
     <a href="https://twitter.com/takenakanokenki" class="fa fa-twitter fa-lg my-gray fa-fw"></a>
 </div>
+    <span class="nav_toggle">
+        <i></i>
+        <i></i>
+        <i></i>
+    </span>
+    <nav class="nav">
+        <ul class="nav_menu_ul">
+            <li class="nav_menu_li"><a href="#Profile">Profile</a></li>
+            <li class="nav_menu_li"><a href="#Career">Career</a></li>
+            <li class="nav_menu_li"><a href="#Hobby">Hobby</a></li>
+            <li class="nav_menu_li"><a href="#Contact">Contact</a></li>
+            <li class="nav_menu_li"><a href="https://twitter.com/takenakanokenki" class="fa fa-twitter fa-lg my-gray fa-fw"></a></li>
+        </ul>
+    </nav>
+
 
     </header>
 
@@ -98,13 +114,26 @@
         </div>
         <div class="hobbyContentsArticle">
             <div class="hobbyContentsTitle">-旅行-</div>
-            <p>・バイトで稼いだお金のほとんどを旅行に使っている。<br>
-                ・海外旅行で行った国 ↓<br>台湾・タイ・カンボジア・インドネシア・オーストラリア・ハワイ・アメリカ・イギリス・フランス・オランダ・ドイツ・スペイン・マルタ共和国<br>
-                ・マルタ共和国（イタリアの近くの国）という国には一人で旅行した。<br>
-                ・国内旅行に関しては同じメンバーで47都道府県を全部制覇した。ヒッチハイクは、神戸から北海道と神戸から九州の二回行った。
-            </p>
+            <ul id="faq-list">
+                <li class="faq-list-item">
+            <div class="question">海外旅行で行った国は？</div>
+            <div class="answer">台湾・タイ・カンボジア・インドネシア・オーストラリア・ハワイ・アメリカ・イギリス・フランス・オランダ・ドイツ・スペイン・マルタ共和国</div>
+                </li>
+                <li class="faq-list-item">
+            <div class="qustion">一人旅した国は？</div>
+            <div class="answer">マルタ共和国</div>
+            </li>
+            <li class="faq-list-item">
+            <div class="question">国内旅行は47都道府県中○○コ制覇！？</div>
+            <div class="answer">47都道府県全て</div>
+            </li>
+            <li class="faq-list-item">
+            <div class="question">ヒッチハイクの経験は？</div>
+            <div class="answer">神戸から北海道と神戸から九州の二回</div>
+            </li></ul>
         </div>
     </div>
+    
 
     <div class="hobbyContents">
         <div class="hobbyContentsImage">
@@ -119,9 +148,14 @@
         </div>
     </div>
 
+
     <div class="hobbySingers">
         <h2>Favorite Artisτ</h2>
-        <div class="hobbySinger">
+
+        <i id="prev" class="fa fa-arrow-circle-left change-btn prev-btn"></i>
+        <i id="next" class="fa fa-arrow-circle-right change-btn next-btn"></i>
+
+        <div class="hobbySinger active">
             <div class="hobbySingerImages">
                 <img src="./image/yuzu.jpg" alt="" class="hobbySingerImage">
             </div>
@@ -147,6 +181,7 @@
         </div>
     </div>
 </div>
+</div>
 
 <div class="contact" id="Contact">
     <div class="contactTitle">
@@ -168,5 +203,6 @@
 <footer>
     <p>@Mirai Denshi</p>
 </footer>
+<script src="script.js"></script>
 </body>
 </html>

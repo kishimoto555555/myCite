@@ -79,6 +79,14 @@ margin: 0 50px;
 
 
 @media(max-width:670px){
+  .header-containt{
+    display: none;
+  }
+  .nav_toggle,.nav{
+    display:block;
+}
+
+
     .body{
         font-size: 0.7em;
     }
